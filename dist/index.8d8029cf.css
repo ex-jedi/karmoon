@@ -98,4 +98,20 @@ img {
   font-family: inherit;
   text-transform: uppercase;
 }
+
+.marquee-text {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding: 12px 0;
+  animation: marquee-text-animation 10s linear infinite forwards;
+}
+
+@keyframes marquee-text-animation {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
 /*# sourceMappingURL=index.8d8029cf.css.map */

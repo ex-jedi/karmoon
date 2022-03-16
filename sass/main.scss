@@ -153,3 +153,23 @@ img {
   font-family: inherit;
   text-transform: uppercase;
 }
+
+//*=========================================
+//** Homepage **
+//*=========================================
+
+.marquee-text {
+  font-size: $font-size-medium;
+  text-transform: uppercase;
+  padding: 12px 0;
+  animation: marquee-text-animation 10s linear infinite forwards;
+}
+
+@keyframes marquee-text-animation {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
