@@ -109,16 +109,20 @@ img {
 }
 
 //********** Header Logo **********
+.header__logo-outer-wrapper {
+  font-size: $font-size-tiny;
+}
 
-.header__logo-wrapper {
+.header__logo-inner-wrapper {
   border: 1px solid #000;
   width: 46px;
+  height: 46px;
   padding: 12px 14px;
+  margin-bottom: 5px;
 }
 
 .header__logo {
   width: 17px;
-  height: 22px;
 }
 
 //********** Main Nav **********
