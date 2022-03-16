@@ -158,6 +158,8 @@ img {
 //** Homepage **
 //*=========================================
 
+//********** Marquee **********
+
 .marquee-text {
   font-size: $font-size-medium;
   text-transform: uppercase;
@@ -172,4 +174,11 @@ img {
   100% {
     transform: translateX(100%);
   }
+}
+
+//********** Hero **********
+.hero-wrapper {
+  height: 100vh;
+  background-image: url('/images/HP Hero.png');
+  background-repeat: no-repeat;
 }
