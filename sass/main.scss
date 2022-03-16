@@ -199,6 +199,41 @@ img {
 
 //********** About Us **********
 
+.about-us__wrapper {
+  padding: 100px;
+}
+
+.about__text-wrapper {
+  color: $font-colour-dark;
+}
+
 .about-us__heading {
   font-size: $font-size-very-large;
+  margin: 0 auto 17px 0;
+}
+
+.about-us__paragraph {
+  font-size: $font-size-large;
+  margin: 0 auto 55px 0;
+}
+
+.about__images-wrapper {
+  @include flex(row);
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.about__image {
+  flex: 1 1 auto;
+  position: relative;
+  width: 30%;
+  height: auto;
+
+  &:first-of-type {
+    margin-right: 125px;
+  }
+
+  &:last-of-type {
+    margin-top: 100px;
+  }
 }
