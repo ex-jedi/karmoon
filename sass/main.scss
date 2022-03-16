@@ -37,6 +37,7 @@ html {
   font-size: 10px;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  background-color: $background-colour-dark;
 }
 
 // * Box sizing rules
@@ -51,7 +52,7 @@ body {
   margin: 0 auto;
   position: relative;
   min-width: 320px;
-  max-width: 2500px;
+  max-width: 1640px;
   overflow-x: hidden;
   background-color: $background-colour-light;
 }
@@ -101,9 +102,13 @@ img {
   @include flex(row);
   align-items: center;
   padding: 25px;
+  font-size: $font-size-medium;
+  color: $font-colour-dark;
+  text-transform: uppercase;
+  border-bottom: 2px solid #000;
 }
 
-//* Header Logo
+//********** Header Logo **********
 
 .header-logo-wrapper {
   border: 1px solid #000;
@@ -114,4 +119,37 @@ img {
 .header-logo {
   width: 17px;
   height: 22px;
+}
+
+//********** Main Nav **********
+
+.main-nav {
+  @include flex(row);
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 274px;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+//********** Header Subnav **********
+
+.header-sub-nav {
+  @include flex(row);
+  justify-content: space-between;
+  width: 230px;
+}
+
+.header-sub-nav-icons {
+  width: 20px;
+  height: 20px;
+}
+
+.header-country-select {
+  border: 0;
+  font-family: inherit;
+  text-transform: uppercase;
 }

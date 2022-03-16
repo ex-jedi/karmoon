@@ -2,6 +2,7 @@ html {
   font-size: 10px;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  background-color: #000;
 }
 
 *,
@@ -16,7 +17,7 @@ body {
   margin: 0 auto;
   position: relative;
   min-width: 320px;
-  max-width: 2500px;
+  max-width: 1640px;
   overflow-x: hidden;
   background-color: #fff;
 }
@@ -50,6 +51,10 @@ img {
   flex-direction: row;
   align-items: center;
   padding: 25px;
+  font-size: 1.3rem;
+  color: #000000;
+  text-transform: uppercase;
+  border-bottom: 2px solid #000;
 }
 
 .header-logo-wrapper {
@@ -61,5 +66,36 @@ img {
 .header-logo {
   width: 17px;
   height: 22px;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 274px;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-sub-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 230px;
+}
+
+.header-sub-nav-icons {
+  width: 20px;
+  height: 20px;
+}
+
+.header-country-select {
+  border: 0;
+  font-family: inherit;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=index.8d8029cf.css.map */
