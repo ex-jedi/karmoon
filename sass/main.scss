@@ -177,8 +177,27 @@ img {
 }
 
 //********** Hero **********
+
 .hero-wrapper {
   height: 100vh;
   background-image: url('/images/HP Hero.png');
   background-repeat: no-repeat;
+  padding: 0 26px;
+  color: $font-colour-light;
+}
+
+.hero__text-wrapper {
+  width: 680px;
+}
+
+.hero__main-heading {
+  font-size: $font-size-super-size;
+  padding-top: 72px;
+  margin: 0 auto 17px;
+  text-align: left;
+}
+
+.hero__paragraph {
+  font-size: $font-size-extra-large;
+  margin: 0 auto;
 }
