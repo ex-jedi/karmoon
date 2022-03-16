@@ -238,3 +238,15 @@ img {
     margin-top: 100px;
   }
 }
+
+//********** Slider Section **********
+
+.slider-section {
+  background-color: $background-colour-dark;
+}
+
+.slider__heading {
+  color: $font-colour-light;
+  font-size: $font-size-super-duper-size;
+  width: 100%;
+}
