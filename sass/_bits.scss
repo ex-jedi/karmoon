@@ -59,3 +59,18 @@ $font-colour-dark: #000000;
 
 // Link Colours
 $link-colour: #3c3cf6;
+
+//*=========================================
+//** Animations **
+//*=========================================
+
+//********** Marquee **********
+
+@keyframes marquee-text-animation {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

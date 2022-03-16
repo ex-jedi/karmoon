@@ -1,16 +1,22 @@
+@keyframes marquee-text-animation {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
 html {
   font-size: 10px;
   overflow-x: hidden;
   scroll-behavior: smooth;
   background-color: #000;
 }
-
 *,
 *:before,
 *:after {
   box-sizing: border-box;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -21,7 +27,6 @@ body {
   overflow-x: hidden;
   background-color: #fff;
 }
-
 h1,
 h2,
 h3 {
@@ -30,7 +35,6 @@ h3 {
   font-weight: 700;
   text-align: center;
 }
-
 section,
 main {
   top: 0;
@@ -40,12 +44,10 @@ main {
   z-index: 3;
   width: 100%;
 }
-
 img {
   max-width: 100%;
   display: block;
 }
-
 .header {
   display: flex;
   flex-direction: row;
@@ -56,11 +58,9 @@ img {
   text-transform: uppercase;
   border-bottom: 2px solid #000;
 }
-
 .header__logo-outer-wrapper {
   font-size: 0.95rem;
 }
-
 .header__logo-inner-wrapper {
   border: 1px solid #000;
   width: 46px;
@@ -68,11 +68,9 @@ img {
   padding: 12px 14px;
   margin-bottom: 5px;
 }
-
 .header__logo {
   width: 17px;
 }
-
 .main-nav {
   display: flex;
   flex-direction: row;
@@ -80,46 +78,31 @@ img {
   margin: 0 auto;
   width: 274px;
 }
-
 .main-nav__link {
   text-decoration: none;
   color: inherit;
 }
-
 .header__sub-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 230px;
 }
-
 .header__sub-nav-icons {
   width: 20px;
   height: 20px;
 }
-
 .header__country-select {
   border: 0;
   font-family: inherit;
   text-transform: uppercase;
 }
-
 .marquee-text {
   font-size: 1.3rem;
   text-transform: uppercase;
   padding: 12px 0;
   animation: marquee-text-animation 10s linear infinite forwards;
 }
-
-@keyframes marquee-text-animation {
-  0% {
-    transform: translateX(-20%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
-
 .hero-wrapper {
   height: 100vh;
   background-image: url("HP Hero.2d241566.png");
@@ -127,18 +110,15 @@ img {
   padding: 0 26px;
   color: #fff;
 }
-
 .hero__text-wrapper {
   width: 680px;
 }
-
 .hero__main-heading {
   font-size: 9rem;
   padding-top: 72px;
   margin: 0 auto 17px;
   text-align: left;
 }
-
 .hero__paragraph {
   font-size: 2.1rem;
   margin: 0 auto;

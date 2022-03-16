@@ -171,15 +171,6 @@ img {
   animation: marquee-text-animation 10s linear infinite forwards;
 }
 
-@keyframes marquee-text-animation {
-  0% {
-    transform: translateX(-20%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
-
 //********** Hero **********
 
 .hero-wrapper {
