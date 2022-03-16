@@ -61,6 +61,7 @@ img {
 }
 .header__logo-outer-wrapper {
   font-size: 0.95rem;
+  width: 230px;
 }
 .header__logo-inner-wrapper {
   border: 1px solid #000;
