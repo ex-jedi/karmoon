@@ -38,10 +38,15 @@
 }
 
 //********** Font Sizing **********
+
+$font-size-tiny: 0.95rem;
 $font-size-small: 1.1rem;
 $font-size-medium: 1.3rem;
 $font-size-large: 1.8rem;
 $font-size-extra-large: 2.1rem;
+$font-size-very-large: 5rem;
+$font-size-super-size: 9rem;
+$font-size-super-duper-size: 14rem;
 
 //*=========================================
 //** Colours  **
@@ -49,6 +54,7 @@ $font-size-extra-large: 2.1rem;
 
 // Main brand Colours
 $background-colour-light: #fff;
+$background-colour-dark: #000;
 
 // Main Font Colours
 $font-colour-light: #fff;
@@ -56,3 +62,18 @@ $font-colour-dark: #000000;
 
 // Link Colours
 $link-colour: #3c3cf6;
+
+//*=========================================
+//** Animations **
+//*=========================================
+
+//********** Marquee **********
+
+@keyframes marquee-text-animation {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
