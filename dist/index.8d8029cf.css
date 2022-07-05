@@ -156,4 +156,12 @@ img {
 .about__image:last-of-type {
   margin-top: 100px;
 }
+.slider-section {
+  background-color: #000;
+}
+.slider__heading {
+  color: #fff;
+  font-size: 14rem;
+  width: 100%;
+}
 /*# sourceMappingURL=index.8d8029cf.css.map */
